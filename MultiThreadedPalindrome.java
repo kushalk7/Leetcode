@@ -129,13 +129,7 @@ class WorkerThread implements Runnable{
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-			}
-			
-			try {
-				Thread.sleep(100*threadNumber);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+			}			
 		}		
 	
 		/*
